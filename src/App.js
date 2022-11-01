@@ -15,7 +15,7 @@ import TableHasil from "./components/TableHasil";
 function App() {
   return (
     <div className="">
-    <HashRouter>
+    <BrowserRouter>
     <Routes>
       <Route path='/' element={<Login/>} />
       <Route path='/dashboard' element={<Dashboard/>} />
@@ -23,7 +23,7 @@ function App() {
       <Route path='/success' element={<AnimationSucces/>} />
       <Route path='/tabelhasil' element={<TableHasil/>} />
     </Routes>
-    </HashRouter>
+    </BrowserRouter>
       {/* <NavBar />
       <Home />
       <About />
