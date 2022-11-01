@@ -15,15 +15,15 @@ import TableHasil from "./components/TableHasil";
 function App() {
   return (
     <div className="">
-    <HashRouter>
+    <BrowserRouter>
     <Routes>
-      <Route path='/logbook-init-digit/login' element={<Login/>} />
+      <Route path='/login' element={<Login/>} />
       <Route path='/dashboard' element={<Dashboard/>} />
       <Route path='/tabel' element={<TabelLogBook/>} />
       <Route path='/success' element={<AnimationSucces/>} />
       <Route path='/tabelhasil' element={<TableHasil/>} />
     </Routes>
-    </HashRouter>
+    </BrowserRouter>
       {/* <NavBar />
       <Home />
       <About />
