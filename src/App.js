@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import { BrowserRouter,HashRouter, Routes, Route } from "react-router-dom";
 import About from "./components/About";
 import AnimationSucces from "./components/Animation";
 import Contact from "./components/Contact";
@@ -15,7 +15,7 @@ import TableHasil from "./components/TableHasil";
 function App() {
   return (
     <div className="">
-    <BrowserRouter>
+    <HashRouter>
     <Routes>
       <Route path='/' element={<Login/>} />
       <Route path='/dashboard' element={<Dashboard/>} />
@@ -23,7 +23,7 @@ function App() {
       <Route path='/success' element={<AnimationSucces/>} />
       <Route path='/tabelhasil' element={<TableHasil/>} />
     </Routes>
-    </BrowserRouter>
+    </HashRouter>
       {/* <NavBar />
       <Home />
       <About />
