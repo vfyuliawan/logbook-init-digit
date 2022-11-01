@@ -17,7 +17,7 @@ function App() {
     <div className="">
     <HashRouter>
     <Routes>
-      <Route path='/' element={<Login/>} />
+      <Route path='/logbook-init-digit/login' element={<Login/>} />
       <Route path='/dashboard' element={<Dashboard/>} />
       <Route path='/tabel' element={<TabelLogBook/>} />
       <Route path='/success' element={<AnimationSucces/>} />
