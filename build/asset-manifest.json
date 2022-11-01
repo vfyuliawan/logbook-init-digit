@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/logbook-init-digit/static/css/main.e873d3ae.css",
-    "main.js": "/logbook-init-digit/static/js/main.c2c003a3.js",
+    "main.js": "/logbook-init-digit/static/js/main.5c9aacb5.js",
     "static/media/lbkqa.jpg": "/logbook-init-digit/static/media/lbkqa.d314250f476bf92ae018.jpg",
     "static/media/mgi.jpg": "/logbook-init-digit/static/media/mgi.3da9f604d569037927a8.jpg",
     "static/media/lbkprod.jpg": "/logbook-init-digit/static/media/lbkprod.cfaf93189cf2ea8c662f.jpg",
@@ -30,10 +30,10 @@
     "static/media/javascript.png": "/logbook-init-digit/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
     "index.html": "/logbook-init-digit/index.html",
     "main.e873d3ae.css.map": "/logbook-init-digit/static/css/main.e873d3ae.css.map",
-    "main.c2c003a3.js.map": "/logbook-init-digit/static/js/main.c2c003a3.js.map"
+    "main.5c9aacb5.js.map": "/logbook-init-digit/static/js/main.5c9aacb5.js.map"
   },
   "entrypoints": [
     "static/css/main.e873d3ae.css",
-    "static/js/main.c2c003a3.js"
+    "static/js/main.5c9aacb5.js"
   ]
 }
