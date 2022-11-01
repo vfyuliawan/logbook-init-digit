@@ -1,6 +1,6 @@
 {
     "homepage": "https://vfyuliawan.github.io/logbook",
-    "name": "one-portfolio",
+    "name": "logbook",
     "version": "0.1.0",
     "private": true,
     "dependencies": {
