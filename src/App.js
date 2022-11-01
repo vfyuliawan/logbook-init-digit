@@ -16,13 +16,11 @@ function App() {
   return (
     <div className="">
     <HashRouter>
-    <Routes>
       <Route exact path='/' element={<Login/>} />
       <Route path='/dashboard' element={<Dashboard/>} />
       <Route path='/tabel' element={<TabelLogBook/>} />
       <Route path='/success' element={<AnimationSucces/>} />
       <Route path='/tabelhasil' element={<TableHasil/>} />
-    </Routes>
     </HashRouter>
       {/* <NavBar />
       <Home />
